@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kazegode - Meus Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #121212;
+            color: white;
+            padding: 20px;
+            background-image: url('images/background2223.jpg'); /* Imagem de fundo */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .container {
+            max-width: 450px;
+            margin: auto;
+            position: relative;
+            z-index: 1;
+            background: rgba(0, 0, 0, 0.6); /* Sombreamento para destacar o conteúdo */
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .profile {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            margin-bottom: 15px;
+        }
+        .links {
+            list-style: none;
+            padding: 0;
+        }
+        .links li {
+            margin: 12px 0;
+        }
+        .links a {
+            display: block;
+            background: #1DB954;
+            color: white;
+            padding: 12px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        .links a:hover {
+            background: #1AA34A;
+        }
+        /* Caixa do conteúdo de música com cor verde-água claro */
+        .music-box, .discord-box {
+            display: block;
+            background: #7FDBFF; /* Verde-água claro */
+            color: white;
+            padding: 12px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            margin: 15px 0;
+            transition: background 0.3s ease;
+        }
+        .music-box:hover, .discord-box:hover {
+            background: #4EBCBD; /* Cor mais escura de verde-água */
+        }
+        /* Melhorias nos títulos e subtítulos */
+        h2 {
+            margin: 20px 0;
+            font-size: 1.8em;
+        }
+        .section-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Imagem de perfil -->
+        <img src="images/die.png" alt="Kazegode" class="profile">
+        <h2>@kazegode</h2>
+        
+        <!-- Links gerais -->
+        <ul class="links">
+            <li><a href="https://www.tiktok.com/@kazegode" target="_blank">TikTok</a></li>
+            <li><a href="https://www.youtube.com/@kazegode_" target="_blank">YouTube</a></li>
+            <li><a href="https://www.instagram.com/kazegode" target="_blank">Instagram</a></li>
+        </ul>
+
+        <!-- Seção de conteúdo de música -->
+        <section>
+            <div class="section-title">Conteúdo de Música:</div>
+            <a href="https://www.tiktok.com/@kazegode.wav" target="_blank" class="music-box">TikTok</a>
+            <a href="https://www.youtube.com/@KAZEGODEMUSIC" target="_blank" class="music-box">YouTube</a>
+        </section>
+
+        <!-- Link para o servidor Discord -->
+        <section>
+            <div class="section-title">Servidor no Discord:</div>
+            <a href="https://discord.gg/7ZFY8hvtXm" target="_blank" class="discord-box">Discord</a>
+        </section>
+    </div>
+</body>
+</html>
